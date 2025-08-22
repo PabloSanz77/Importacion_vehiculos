@@ -1,9 +1,12 @@
-# 📋 Registro de Importación de Vehículos
+Identificación de Entidades, Atributos, Dominios y Clave Primaria
+
+# Registro de Importación de Vehículos
+Una empresa de importación recibe cada mes una variedad de vehículos provenientes de diferentes países. Cada vehículo tiene un número de serie único, modelo, marca, año de fabricación, velocidad máxima y precio declarado. Los vehículos se agrupan en lotes de importación, cada lote tiene un código identificador, fecha de llegada y país de origen. Además, cada vehículo es asignado a un concesionario local, el cual cuenta con un código de concesionario, nombre comercial, dirección y persona de contacto.
 
 ANALISIS DEL ENUNCIADO:
 
 
- Entidad: Vehículo
+ Entidad: VEHICULO
 
 | **Atributo**        | **Dominio**                             | **Llave Primaria** |
 |----------------------|------------------------------------------|--------------------|
@@ -18,7 +21,7 @@ ANALISIS DEL ENUNCIADO:
 
 ---
 
-Entidad: Lote
+Entidad: LOTE
 
 | **Atributo**   | **Dominio**                       | **Llave Primaria** |
 |----------------|------------------------------------|--------------------|
@@ -28,7 +31,7 @@ Entidad: Lote
 
 ---
 
- Entidad: Concesionario
+ Entidad: CONCESIONARIO
 
 | **Atributo**       | **Dominio**                       | **Llave Primaria** |
 |---------------------|------------------------------------|--------------------|
