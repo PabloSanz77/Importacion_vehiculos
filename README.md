@@ -16,8 +16,8 @@ ANALISIS DEL ENUNCIADO:
 | año_fabricacion      | Entero positivo (ej. 1900–2025)         |  No |
 | velocidad_maxima     | Entero positivo (km/h)                  |  No |
 | precio_declarado     | Decimal positivo (NUMERIC(12,2))        |  No |
-| codigo_lote (FK)     | Texto alfanumérico (VARCHAR(20))        |  No |
-| codigo_concesionario (FK) | Texto alfanumérico (VARCHAR(20))   |  No |
+| codigo_lote      | Texto alfanumérico (VARCHAR(20))        |  No |
+| codigo_concesionario  | Texto alfanumérico (VARCHAR(20))   |  No |
 
 ---
 
