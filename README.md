@@ -1,19 +1,9 @@
 # 📋 Registro de Importación de Vehículos
 
-## 1. Resumen Comparativo
+ANALISIS DEL ENUNCIADO:
 
-| **Concepto**   | **Definición** |
-|----------------|----------------|
-| **Entidad**    | Elemento del mundo real o conceptual representado como tabla. |
-| **Atributo**   | Característica que describe a una entidad (columna). |
-| **Dominio**    | Valores permitidos para un atributo. |
-| **Llave primaria** | Atributo(s) que identifican de manera única cada registro en la tabla. |
 
----
-
-## 2. Ejemplo Integrado del Caso
-
-### 🚗 Entidad: Vehículo
+ Entidad: Vehículo
 
 | **Atributo**        | **Dominio**                             | **Llave Primaria** |
 |----------------------|------------------------------------------|--------------------|
@@ -28,7 +18,7 @@
 
 ---
 
-### 📦 Entidad: Lote
+Entidad: Lote
 
 | **Atributo**   | **Dominio**                       | **Llave Primaria** |
 |----------------|------------------------------------|--------------------|
@@ -38,7 +28,7 @@
 
 ---
 
-### 🏢 Entidad: Concesionario
+ Entidad: Concesionario
 
 | **Atributo**       | **Dominio**                       | **Llave Primaria** |
 |---------------------|------------------------------------|--------------------|
@@ -49,8 +39,5 @@
 
 ---
 
-## 3. Relaciones entre entidades
 
-- Un **Lote** puede contener muchos **Vehículos**.  
-- Un **Concesionario** puede recibir muchos **Vehículos**.  
 
